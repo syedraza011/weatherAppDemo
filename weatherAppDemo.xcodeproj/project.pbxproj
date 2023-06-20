@@ -17,6 +17,8 @@
 		E9EF764B2A34E45000B9DA03 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF764A2A34E45000B9DA03 /* HeaderView.swift */; };
 		E9EF764E2A34E5B700B9DA03 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF764D2A34E5B700B9DA03 /* WeatherData.swift */; };
 		E9EF76502A34E77600B9DA03 /* HourlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF764F2A34E77600B9DA03 /* HourlyView.swift */; };
+		E9EF76522A34ED5200B9DA03 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF76512A34ED5200B9DA03 /* WeatherView.swift */; };
+		E9EF76542A34F08200B9DA03 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF76532A34F08200B9DA03 /* DayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		E9EF764A2A34E45000B9DA03 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E9EF764D2A34E5B700B9DA03 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		E9EF764F2A34E77600B9DA03 /* HourlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyView.swift; sourceTree = "<group>"; };
+		E9EF76512A34ED5200B9DA03 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		E9EF76532A34F08200B9DA03 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,8 @@
 			children = (
 				E9EF764A2A34E45000B9DA03 /* HeaderView.swift */,
 				E9EF764F2A34E77600B9DA03 /* HourlyView.swift */,
+				E9EF76512A34ED5200B9DA03 /* WeatherView.swift */,
+				E9EF76532A34F08200B9DA03 /* DayView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -298,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EF76542A34F08200B9DA03 /* DayView.swift in Sources */,
 				E9EF76502A34E77600B9DA03 /* HourlyView.swift in Sources */,
 				E9EF761C2A34D8C600B9DA03 /* ContentView.swift in Sources */,
 				E9EF761A2A34D8C600B9DA03 /* weatherAppDemoApp.swift in Sources */,
+				E9EF76522A34ED5200B9DA03 /* WeatherView.swift in Sources */,
 				E9EF764E2A34E5B700B9DA03 /* WeatherData.swift in Sources */,
 				E9EF764B2A34E45000B9DA03 /* HeaderView.swift in Sources */,
 			);

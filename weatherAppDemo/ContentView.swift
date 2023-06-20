@@ -12,12 +12,15 @@ struct ContentView: View {
         ZStack {
             Color.blue.edgesIgnoringSafeArea(.all)
             
-            ScrollView{
-            
-            HeaderView()
+            ScrollView(.vertical){
+                
+                HeaderView()
+                HourlyView()
+                DayView()
+            }
         }
+        
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {

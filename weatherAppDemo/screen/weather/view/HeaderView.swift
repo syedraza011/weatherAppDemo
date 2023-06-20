@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct HeaderView: View {
     var body: some View {
         VStack(spacing: 20) {
             Text("New York, NY")
@@ -37,6 +37,6 @@ struct SwiftUIView: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        HeaderView()
     }
 }
